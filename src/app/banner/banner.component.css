@@ -1,0 +1,47 @@
+.banner{
+    font-family:Helvetica, sans-serif;
+    height: 400px;
+    background: url("../../assets/images/Banner.jpg") center;
+    background-size: 100% 100%;
+    padding-top: 55px;
+    padding-left: 100px;
+    color: white;
+}
+.title{
+    font-size: 56px;
+    font-weight: 900;
+    width: 35%;
+}
+
+.description{
+    font-weight: bold;
+    margin-top: 20px;
+    width: 35%;
+}
+
+.btns{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.btns button{
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn1{
+    background-color:#0f3cc9;
+    border: none;
+    padding: 0px 25px;
+}
+
+.btn2{
+    border: 0.5px solid white;
+    background: none;
+    padding: 0px 35px;
+}

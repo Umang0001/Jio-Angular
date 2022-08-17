@@ -1,0 +1,66 @@
+.footer{
+    padding: 30px;
+    display: flex;
+}
+
+.options{
+    width: 17%;
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul{
+    list-style: none;
+    color: gray;
+}
+ul li{
+    margin: 22px;
+}
+
+b{
+    margin: 15px 0px !important;
+    color: black;
+    font-weight: 700;
+}
+
+.connectWithUs{
+    width: 32%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.connectWithUs img{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 25px;
+}
+.connectWithUs p{
+    font-size: 27px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.btns{
+    display: flex;
+}
+
+.gplay{
+    border: none;
+    height: 36px;
+    width: 140px;
+    background: url("../../assets/images/G-Play.svg");
+    background-size: cover;
+}
+.appstore{
+    border: none;
+    height: 36px;
+    width: 140px;
+    background: url("../../assets/images/AppStore.svg");
+    background-size: cover;
+}
