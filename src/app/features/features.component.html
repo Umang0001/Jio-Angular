@@ -1,8 +1,3 @@
 <div class="main">
-    <div class="feature"><img src="../../assets/images/recharge.JPG" alt=""> <p>Recharge</p></div>
-    <div class="feature"><img src="../../assets/images/paybills.JPG" alt=""><p>Pay Bills</p></div>
-    <div class="feature"><img src="../../assets/images/getsim.JPG" alt=""><p>Get Jio SIM</p></div>
-    <div class="feature"><img src="../../assets/images/port.JPG" alt=""><p>Port to Jio</p></div>
-    <div class="feature"><img src="../../assets/images/fiber.JPG" alt=""><p>Get JioFiber</p></div>
-    <div class="feature"><img src="../../assets/images/support.JPG" alt=""><p>Support</p></div>
+    <div *ngFor="let x of arr" class="feature"><img [src]="x.src" alt=""> <p>{{x.text}}</p></div>
 </div>

@@ -1,22 +1,17 @@
 <div class="navbar">
     <div class="logo">
-        <img src="../../assets/images/logo.JPG" alt="">
+        <img [src]="logo" alt="">
     </div>
     <div class="options">
-        <p>Mobile</p>
-        <p>JioFiber</p>
-        <p>Business</p>
-        <p>Shop</p>
-        <p>Apps</p>
+        <p *ngFor="let option of options">{{option}}</p>
     </div>
     <div class="search">
         <div class="searchBar x">
-            <img src="../../assets/images/pngfind.com-search-icon-png-545056.png" alt="">
+            <img [src]="searchIcon" alt="">
             <input type="text" placeholder="Search">
-
         </div>
-        <img class="x" src="../../assets/images/help.JPG" alt="">
-        <img class="x" src="../../assets/images/cart.JPG" alt="">
-        <img class="x" src="../../assets/images/profile.JPG" alt="">
+        <img class="x" [src]="help" alt="">
+        <img class="x" [src]="cart" alt="">
+        <img class="x" [src]="profile" alt="">
     </div>
 </div>
