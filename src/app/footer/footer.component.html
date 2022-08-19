@@ -1,9 +1,6 @@
 <div class="footer">
     <div *ngFor="let x of arr" class="options" >
-        <ul>
-            <li><b>{{x[0]}}</b></li>
-            <li *ngFor="let y of x[1]">{{y}}</li>
-        </ul>
+        <app-footer-child [data]="x"></app-footer-child>
     </div>
     <div class="connectWithUs">
         <p>Connect with us</p>

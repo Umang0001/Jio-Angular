@@ -13,10 +13,10 @@ export class FooterComponent implements OnInit {
   }
 
   arr:any []=[
-    ["Our offerings",["Mobile","Fiber","Business","Apps","Shop"]], 
-    ["Explore",["Support","Locate us","FAQ","Track order","Contact us"]],
-    ["Our company",["Reliance Industries","Reliance Foundation","JioLife","Careers","Investor relations"]],
-    ["Useful links",["Get Jio SIM","Get JioFiber","Recharge","Pay Bills","Login"]],
+    ["Our offerings","Mobile","Fiber","Business","Apps","Shop"], 
+    ["Explore","Support","Locate us","FAQ","Track order","Contact us"],
+    ["Our company","Reliance Industries","Reliance Foundation","JioLife","Careers","Investor relations"],
+    ["Useful links","Get Jio SIM","Get JioFiber","Recharge","Pay Bills","Login"],
 ]
 
 }

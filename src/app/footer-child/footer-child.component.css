@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+    color: gray;
+}
+ul li{
+    margin: 22px;
+}
+
+li:nth-child(1){
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px !important;
+}
